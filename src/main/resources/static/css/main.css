@@ -60,7 +60,7 @@ html{
       text-align: center;
       cursor: pointer;
       font-size: 20px;
-      background-image: url();
+      background-image: url(../img/test2.PNG);
     }
     
     /*Resize the wrap to see the search bar change!*/

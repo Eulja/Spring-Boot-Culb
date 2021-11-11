@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@include file="../layout/header.jsp" %>
-       <link rel="stylesheet" href="css/register.css">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/register.css">
         <script type="text/javascript" src="js/register.js"></script>
         <title>íìê°ì</title>
         <style>
@@ -9,7 +10,9 @@
                 font-family: 'Gugi', cursive;
                 }
         </style>
- <div class="container">
+    </head>
+    <body>
+        <div class="container">
             <h1 id="tit_1"><a href="main.html">ì½ë©ëëì¥í°</a></h1>
             <h1 id="tit_2">íìê°ì</h1>
             <form>
@@ -33,6 +36,5 @@
             </form>
         <button id="btn-save"class="register_submit"><a href="#" class="registertext">íìê°ì</a></button>
         </div>
-        
-<script src="/js/user.js"></script>
-<%@include file="../layout/footer.jsp" %>
+    </body>
+    </html>

@@ -1,11 +1,11 @@
-package com.cos.app.test;
+package com.cos.club.test;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cos.app.*;
+import com.cos.club.*;
 
 @RestController
 public class test {

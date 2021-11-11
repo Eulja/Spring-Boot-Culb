@@ -7,5 +7,5 @@
     var opt = "left = " + left + ", top = " + top + ", width = " + w + ", height = " + h ;
     window.open(doc, win ,opt);
   }
-  openPop("mini/notice.html", "pop", 500, 300);
+  openPop("notice.jsp", "pop", 500, 300);
 </script>

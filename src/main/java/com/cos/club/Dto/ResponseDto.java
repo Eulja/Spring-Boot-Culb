@@ -1,4 +1,4 @@
-package com.cos.app.Dto;
+package com.cos.club.Dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

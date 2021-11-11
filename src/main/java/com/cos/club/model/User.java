@@ -1,4 +1,4 @@
-package com.cos.app.model;
+package com.cos.club.model;
 
 import java.sql.Timestamp;
 
@@ -37,10 +37,10 @@ public class User {
 	private String password;
 	
 	@Column(nullable = false, length = 30)
-	private String emill;
+	private String email;
 	
 	@Enumerated(EnumType.STRING)
-	private RoleType role;
+	private RoleType role; 
 	
 	@CreationTimestamp
 	private Timestamp createDate;

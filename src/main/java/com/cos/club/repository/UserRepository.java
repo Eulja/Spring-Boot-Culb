@@ -1,8 +1,8 @@
-package com.cos.app.repository;
+package com.cos.club.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.cos.app.model.User;
+import com.cos.club.model.User;
 
 public interface UserRepository extends JpaRepository<User, Integer>{
 

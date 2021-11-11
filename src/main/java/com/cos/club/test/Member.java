@@ -1,4 +1,4 @@
-package com.cos.app.test;
+package com.cos.club.test;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

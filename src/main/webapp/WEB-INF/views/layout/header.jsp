@@ -5,7 +5,8 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/main.css">
-        <script type="text/javascript" src="js/main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <title>코딩장터</title>
         <style>
               @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');

@@ -1,4 +1,4 @@
-package com.cos.app;
+package com.cos.club;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

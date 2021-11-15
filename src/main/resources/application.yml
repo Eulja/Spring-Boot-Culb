@@ -19,9 +19,9 @@ spring:
     password: club1234
     
   jpa: 
-    open-in-view: true
+    open-in-view: true 
     hibernate:
-      ddl-auto: create #creat :실행할때마다 테이블을 새로만든다
+      ddl-auto: update #creat :실행할때마다 테이블을 새로만든다
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl #Entity(테이블) 이름그대로 필드를 만들어준다 
       use-new-id-generator-mappings: false #JPA의 기본 전략에 따라가지 않겠다

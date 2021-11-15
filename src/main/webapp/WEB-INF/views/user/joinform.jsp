@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@include file="../layout/header.jsp"%>
-<link rel="stylesheet" href="css/register.css">
-<script type="text/javascript" src="js/register.js"></script>
+<link rel="stylesheet" href="/css/register.css">
+<script type="text/javascript" src="/js/register.js"></script>
 <title>íìê°ì</title>
 <style>
 @import
@@ -13,7 +13,7 @@ html {
 </style>
 	<div class="container">
 		<h1 id="tit_1">
-			<a href="main.html">코딩나래장터</a>
+			<a href="index.jsp">코딩나래장터</a>
 		</h1>
 		<h1 id="tit_2">회원가입</h1>
 		<form>
@@ -33,7 +33,7 @@ html {
 
 		</form>
 		<button id="btn-save" class="register_submit">
-			<a href="#" class="registertext">회원가입</a>
+			<a class="registertext">회원가입</a>
 		</button>
 	</div>
 	<script src="/js/user.js"></script>

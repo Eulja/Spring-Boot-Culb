@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@include file="layout/header.jsp"%>
+<%@include file="layout/menu.jsp" %>
 
 </nav>
 <h1 class="mainpagetit">계절 인기 상품</h1>
@@ -76,5 +77,4 @@
 		<label for="img-6" class="nav-dot" id="img-dot-6"></label>
 	</li>
 </ul>
-<%@include file="layout/pop.jsp"%>
 <%@include file="layout/footer.jsp"%>

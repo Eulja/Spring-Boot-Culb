@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/main.css">
+        <script type="text/javascript" src="/쥬조작품/js/main.js"></script>
+        <title>코딩장터</title>
+        <style>
+              @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+        </style>
+    </head>
+<body>
+  <header>
+    <h1><a class="tit" href="#">코딩나래장터</a></h1>
+    <!--검색바-->
+
+
+    <div class="wrap">
+        <div class="search">
+           <input type="text" class="searchTerm" placeholder="검색어를 입력하세요">
+           <button type="submit" class="searchButton">
+             <i class="fa fa-search"></i>
+          </button>
+        </div>
+     </div>
+     <button class="login"><a href="login.html" class="logintext">로그인</a></button>
+     <button class="register"><a class="registertext"href="register.html">회원가입</a></button>
+
+    <hr>
+  </header>
+
+     <nav class="menu1">
+       <ul>
+         <li class="list-1"><a href="#">카테고리</a>
+          <ul>
+            <li><a href="#">디지털 기기</a></li>
+            <li><a href="#">생활가전</a></li>
+            <li><a href="#">가구/인테리어</a></li>
+          </ul>
+        </li>
+       </ul>
+     </nav>
+
+     <h1 class="mainpagetit">계절 인기 상품</h1>
+    <div class="conduct_container">
+     <ul class="slides">
+      <input type="radio" name="radio-btn" id="img-1" checked />
+      <li class="slide-container">
+      <div class="slide">
+        <img src="/쥬조작품/image/pic1.PNG" />
+          </div>
+      <div class="nav">
+        <label for="img-6" class="prev">&#x2039;</label>
+        <label for="img-2" class="next">&#x203a;</label>
+      </div>
+      </li>
+  
+      <input type="radio" name="radio-btn" id="img-2" />
+      <li class="slide-container">
+          <div class="slide">
+            <img src="/쥬조작품/image/pic2.PNG" />
+          </div>
+      <div class="nav">
+        <label for="img-1" class="prev">&#x2039;</label>
+        <label for="img-3" class="next">&#x203a;</label>
+      </div>
+      </li>
+  
+      <input type="radio" name="radio-btn" id="img-3" />
+      <li class="slide-container">
+          <div class="slide">
+            <img src="/쥬조작품/image/pic3.PNG" />
+          </div>
+      <div class="nav">
+        <label for="img-2" class="prev">&#x2039;</label>
+        <label for="img-4" class="next">&#x203a;</label>
+      </div>
+      </li>
+  
+      <input type="radio" name="radio-btn" id="img-4" />
+      <li class="slide-container">
+          <div class="slide">
+            <img src="/쥬조작품/image/pic4.PNG" />
+          </div>
+      <div class="nav">
+        <label for="img-3" class="prev">&#x2039;</label>
+        <label for="img-5" class="next">&#x203a;</label>
+      </div>
+      </li>
+  
+      <input type="radio" name="radio-btn" id="img-5" />
+      <li class="slide-container">
+          <div class="slide">
+            <img src="/쥬조작품/image/test.PNG" />
+          </div>
+      <div class="nav">
+        <label for="img-4" class="prev">&#x2039;</label>
+        <label for="img-6" class="next">&#x203a;</label>
+      </div>
+      </li>
+  
+      <input type="radio" name="radio-btn" id="img-6" />
+      <li class="slide-container">
+          <div class="slide">
+            <img src="/쥬조작품/image/test2.PNG" />
+          </div>
+      <div class="nav">
+        <label for="img-5" class="prev">&#x2039;</label>
+        <label for="img-1" class="next">&#x203a;</label>
+      </div>
+      </li>
+  
+      <li class="nav-dots">
+        <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+        <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+        <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+        <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+        <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+        <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+      </li>
+  </ul>
+</div>
+<div class="ad">
+  <p class="ad_tit">최근 본 상품</p><hr>
+</div>
+
+
+
+<!--팝업창-->
+<script>
+  function openPop(doc, win, w, h){
+    var left = (screen.availWidth - w) / 2;
+    var top = (screen.availHeight - h) / 2;
+    var opt = "left = " + left + ", top = " + top + ", width = " + w + ", height = " + h ;
+    window.open(doc, win ,opt);
+  }
+  openPop("notice.html", "pop", 500, 300);
+</script>
+</body>
+</html>

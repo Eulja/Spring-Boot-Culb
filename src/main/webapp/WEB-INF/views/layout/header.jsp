@@ -4,7 +4,6 @@
 
 <sec:authorize access="isAuthenticated()">
 	<script>
-		alert("시큐리티 로그인");
 	</script>
 	<sec:authentication property="principal" var="principal"/>
 </sec:authorize> 

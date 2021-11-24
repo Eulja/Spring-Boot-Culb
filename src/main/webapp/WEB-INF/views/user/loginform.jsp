@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@include file="../layout/header.jsp"%>
-<meta charset="UTF-8">
 <link rel="stylesheet" href="/css/login.css">
 <title>로그인</title>
 <style>
@@ -20,13 +19,13 @@ html {
 		<div class="idbox">
 			<label for="username">Username</label>
 			<div class="id">
-				<input type="text" id="userid" class="idbar" placeholder="아이디">
+				<input type="text" id="userid" class="idbar" placeholder="아이디" name="username">
 			</div>
 		</div>
 		<div class="pwbox">
 			<label for="password">Password</label>
 			<div class="pw">
-				<input type="password" id="userpw" class="pwbar" placeholder="비밀번호">
+				<input type="password" id="userpw" class="pwbar" placeholder="비밀번호" name="password">
 			</div>
 		</div>
 		<button type="submit" class="login_submit">
